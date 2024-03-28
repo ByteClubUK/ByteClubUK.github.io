@@ -1,5 +1,3 @@
-# Byte Club UK
-
 ![ByteClubLogo](/assets/img/logo.png)
 
 ## About 
