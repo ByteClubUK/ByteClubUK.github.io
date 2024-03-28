@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #2f3138;
+  color: #005d97;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -188,7 +188,7 @@ h6 {
 /*--------------------------------------------------------------
 # Buy Tickets
 --------------------------------------------------------------*/
-.buy-tickets {
+.upcoming-events {
   color: #fff;
   background: #f82249;
   padding: 7px 22px;
@@ -202,17 +202,17 @@ h6 {
   white-space: nowrap;
 }
 
-.buy-tickets:hover {
+.upcoming-events:hover {
   background: none;
   color: #fff;
 }
 
-.buy-tickets:focus {
+.upcoming-events:focus {
   color: #fff;
 }
 
 @media (max-width: 992px) {
-  .buy-tickets {
+  .upcoming-events {
     margin: 0 15px 0 0;
   }
 }
@@ -1265,46 +1265,46 @@ h6 {
 /*--------------------------------------------------------------
 # Buy Tickets Section
 --------------------------------------------------------------*/
-#buy-tickets {
+#upcoming-events {
   padding: 60px 0;
 }
 
-#buy-tickets .card {
+#upcoming-events .card {
   border: none;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
-#buy-tickets .card:hover {
+#upcoming-events .card:hover {
   box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
 }
 
-#buy-tickets .card hr {
+#upcoming-events .card hr {
   margin: 25px 0;
 }
 
-#buy-tickets .card .card-title {
+#upcoming-events .card .card-title {
   margin: 10px 0;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
 }
 
-#buy-tickets .card .card-price {
+#upcoming-events .card .card-price {
   font-size: 48px;
   margin: 0;
 }
 
-#buy-tickets .card ul li {
+#upcoming-events .card ul li {
   margin-bottom: 20px;
 }
 
-#buy-tickets .card .text-muted {
+#upcoming-events .card .text-muted {
   opacity: 0.7;
 }
 
-#buy-tickets .card .btn {
+#upcoming-events .card .btn {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
@@ -1314,16 +1314,16 @@ h6 {
   color: #fff;
 }
 
-#buy-tickets .card .btn:hover {
+#upcoming-events .card .btn:hover {
   background-color: #e0072f;
 }
 
-#buy-tickets #buy-ticket-modal input,
-#buy-tickets #buy-ticket-modal select {
+#upcoming-events #buy-ticket-modal input,
+#upcoming-events #buy-ticket-modal select {
   border-radius: 0;
 }
 
-#buy-tickets #buy-ticket-modal .btn {
+#upcoming-events #buy-ticket-modal .btn {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
@@ -1333,7 +1333,7 @@ h6 {
   color: #fff;
 }
 
-#buy-tickets #buy-ticket-modal .btn:hover {
+#upcoming-events #buy-ticket-modal .btn:hover {
   background-color: #e0072f;
 }
 
